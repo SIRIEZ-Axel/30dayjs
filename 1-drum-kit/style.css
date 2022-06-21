@@ -1,0 +1,58 @@
+body {
+  background-color: #1e1e1e;
+}
+
+body .keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+  height: 90vh;
+  width: 100%;
+}
+
+body .keys .key {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #0588c9;
+  -webkit-box-shadow: 0px 0px 7px 1px #58afda;
+          box-shadow: 0px 0px 7px 1px #58afda;
+  padding: 25px 35px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+body .keys .key kbd {
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+body .keys .key .sound {
+  color: #0588c9;
+  letter-spacing: -1px;
+}
+
+body .keys .playing {
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-box-shadow: 0px 0px 14px 7px #58afda;
+          box-shadow: 0px 0px 14px 7px #58afda;
+  border: 2px solid #0588c9;
+}
+/*# sourceMappingURL=style.css.map */
